@@ -1,0 +1,352 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 65446 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Users/nmela/Projects/Portfolios/UI Projects
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+63059
+Successfully changed project path to: C:/Users/nmela/Projects/Portfolios/UI Projects
+C:/Users/nmela/Projects/Portfolios/UI Projects
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 87.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nmela/Projects/Portfolios/UI Projects/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6900 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16338 MB
+    Driver:   30.0.14011.3017
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010394 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 98.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.528 seconds
+Domain Reload Profiling:
+	ReloadAssembly (528ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (388ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (82ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005551 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\nmela\Projects\Portfolios\UI Projects\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\nmela\Projects\Portfolios\UI Projects\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.735 seconds
+Domain Reload Profiling:
+	ReloadAssembly (736ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (574ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (112.7 KB). Loaded Objects now: 3859.
+Memory consumption went from 122.7 MB to 122.6 MB.
+Total: 2.697400 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.153800 ms MarkObjects: 2.234600 ms  DeleteObjects: 0.082300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 376513.373994 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Fonts/Electrolize-Regular_Extended ASCII SDF.asset
+  artifactKey: Guid(1ddbc97ca8eda42749e1e1eb08026b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Fonts/Electrolize-Regular_Extended ASCII SDF.asset using Guid(1ddbc97ca8eda42749e1e1eb08026b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f5d193042932da3f191b54da8200b4') in 0.125409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.170957 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e80cbd7490a1f7ca2e4ebb2bef4e0e') in 0.014503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.976478 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/notify_frame_green.png
+  artifactKey: Guid(b27e8174ec45b4b99ad666846972ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/notify_frame_green.png using Guid(b27e8174ec45b4b99ad666846972ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4cee34c6e214015b8bd3ab008e920e') in 0.038519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/status_icon_gem.png
+  artifactKey: Guid(bfa01af180f7649b4b44863da178d4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/status_icon_gem.png using Guid(bfa01af180f7649b4b44863da178d4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a551e607c178ffa9d7dd66a0416448') in 0.016783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/status_icon_star.png
+  artifactKey: Guid(506843b1805b344b5a64de6c7d1bc768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/status_icon_star.png using Guid(506843b1805b344b5a64de6c7d1bc768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a5af0f43798d0a7e4fe225665fb503') in 0.025649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/switch_on_handle.png
+  artifactKey: Guid(bbd3a837ade7c4fc0b54dd29d1b0a7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/switch_on_handle.png using Guid(bbd3a837ade7c4fc0b54dd29d1b0a7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b585fdc6c14eed07938400dcaa13347') in 0.020801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/status_icon_gold.png
+  artifactKey: Guid(e557639d1acd84734b384b6a04b18720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/status_icon_gold.png using Guid(e557639d1acd84734b384b6a04b18720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341a035f733fa4c2f50de30c3514f98d') in 0.019068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/toggle_checkbox_on.png
+  artifactKey: Guid(f7ac1d1df71c64f99bcd6de611d7e522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/toggle_checkbox_on.png using Guid(f7ac1d1df71c64f99bcd6de611d7e522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30557b1912604de029f06e55700e4cc') in 0.011931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/pagenavi_point.png
+  artifactKey: Guid(7a35fc8d45ba64aeaba31bb5102148ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/pagenavi_point.png using Guid(7a35fc8d45ba64aeaba31bb5102148ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cbbd33a574fccf79fdd949f9c2769f') in 0.010901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/status_btn_add.png
+  artifactKey: Guid(1aa0fb065258042eca1c11dcbdde9a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/status_btn_add.png using Guid(1aa0fb065258042eca1c11dcbdde9a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0e1f2f23347f72e97af008cdb28701') in 0.010003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/pagenavi_frame_middle.png
+  artifactKey: Guid(3e62591325a054f378067cef7784d1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/pagenavi_frame_middle.png using Guid(3e62591325a054f378067cef7784d1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912cc31bf6492f8f788863264628c47d') in 0.009916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/switch_off_handle.png
+  artifactKey: Guid(4c9808e986a184183a63e4b7d925e103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/switch_off_handle.png using Guid(4c9808e986a184183a63e4b7d925e103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f89b58f51a75e3afc4f43ca434d952') in 0.009737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.676502 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_icontype_01_frame.png
+  artifactKey: Guid(bfdc2dbfad0c8474d8049e754cac82e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_icontype_01_frame.png using Guid(bfdc2dbfad0c8474d8049e754cac82e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbafdb32211bb73805cef531f27b185') in 0.011306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_LanguageFlag/Smicon_Languageflag_Small02_Jpn.Png
+  artifactKey: Guid(8baa904b9e2834c9baa998471324fae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_LanguageFlag/Smicon_Languageflag_Small02_Jpn.Png using Guid(8baa904b9e2834c9baa998471324fae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6caad09e1815bab00c1fedf2181e802b') in 0.015938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_LanguageFlag/Smicon_Languageflag_Small02_Ind.Png
+  artifactKey: Guid(caf8fbb0ebc0f498792906a4e46c3933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_LanguageFlag/Smicon_Languageflag_Small02_Ind.Png using Guid(caf8fbb0ebc0f498792906a4e46c3933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51aad2eb8856a6c5aa85d7ed5b667214') in 0.026960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_LanguageFlag/Smicon_Languageflag_Small02_Tha.Png
+  artifactKey: Guid(297480a01d8544b9cb642aca24150c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_LanguageFlag/Smicon_Languageflag_Small02_Tha.Png using Guid(297480a01d8544b9cb642aca24150c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0669eb9867d321abacac14f8515a48') in 0.014444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/InputField_frame_activity.png
+  artifactKey: Guid(f78d6eb19e5b44152a71d2d3be9af0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/InputField_frame_activity.png using Guid(f78d6eb19e5b44152a71d2d3be9af0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0850e610cb962f01fc1a3ba5e4c49f98') in 0.012151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Toggle/Toggle_Switch_White7.png
+  artifactKey: Guid(d4d2009e14fc64b0e80ca96b2e9ba02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Toggle/Toggle_Switch_White7.png using Guid(d4d2009e14fc64b0e80ca96b2e9ba02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40394fa5de1de0656a99dcb60f5633f') in 0.023568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_LanguageFlag/Smicon_Languageflag_Small02_Rou.Png
+  artifactKey: Guid(c60a5021c789b41a392141a18ab4cc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_LanguageFlag/Smicon_Languageflag_Small02_Rou.Png using Guid(c60a5021c789b41a392141a18ab4cc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e52ca899f61dafa426ecd0e7e2caa99') in 0.015796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_LanguageFlag/Smicon_Languageflag_Small02_Prt.Png
+  artifactKey: Guid(5bea99a034e284e468dcbf9ea0758a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_LanguageFlag/Smicon_Languageflag_Small02_Prt.Png using Guid(5bea99a034e284e468dcbf9ea0758a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfda944de4ea0796dd87852f54627ea') in 0.016670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Toggle/Toggle_Radio_On.png
+  artifactKey: Guid(f553ecdec5fac4029b5e903c1688f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Toggle/Toggle_Radio_On.png using Guid(f553ecdec5fac4029b5e903c1688f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8f13740dc33c6d2d8b7fb57c8ff638') in 0.015810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Toggle/Toggle_CheckBox_White3.png
+  artifactKey: Guid(ac0b904b5db25487890c30cae7a67fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Toggle/Toggle_CheckBox_White3.png using Guid(ac0b904b5db25487890c30cae7a67fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5da4fab8d4b8624e696e83ab6555b28') in 0.014392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Toggle/Toggle_Switch_White1_Off1.png
+  artifactKey: Guid(0d34aa4820abb4a429c3e0e9f6ffcf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Toggle/Toggle_Switch_White1_Off1.png using Guid(0d34aa4820abb4a429c3e0e9f6ffcf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe30fb40c2e702752694c5b150753ea4') in 0.015543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_icontype_05_icon3.png
+  artifactKey: Guid(515ae39f4f7a1449c9f952dbc1364be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_icontype_05_icon3.png using Guid(515ae39f4f7a1449c9f952dbc1364be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887a7fabf79bc3fb5f089567c4fa6881') in 0.011939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.182753 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_plus.png
+  artifactKey: Guid(50e238e2509184567abda05de5af2257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_plus.png using Guid(50e238e2509184567abda05de5af2257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84c6f66d8c1a0822242f2bf8df25ef2') in 0.023174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.681904 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_gift1_red.png
+  artifactKey: Guid(d2b33962d30094087bfa9af8b0a62712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_gift1_red.png using Guid(d2b33962d30094087bfa9af8b0a62712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da9912c5097acb85509fbb9d2e07ba7') in 0.024653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_hourglass.png
+  artifactKey: Guid(552ee50297f7b4c04a775dedd5c96aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_hourglass.png using Guid(552ee50297f7b4c04a775dedd5c96aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553c0193e3664c2f21e9c636da65e93d') in 0.017697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_hero.png
+  artifactKey: Guid(798678391569249ab82c838b946c24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_hero.png using Guid(798678391569249ab82c838b946c24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c44791f265aa1ab418de3450a7e8243') in 0.015807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_jewel2_blue.png
+  artifactKey: Guid(83b81f11d81bb496092aecc2092770c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_jewel2_blue.png using Guid(83b81f11d81bb496092aecc2092770c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6234a2fa0b61c7563403bb6adfa91fa') in 0.014842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.434280 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_jewel3_green.png
+  artifactKey: Guid(c4a4a3889725445dd8786804a24c10e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_jewel3_green.png using Guid(c4a4a3889725445dd8786804a24c10e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ed7887d225c1c54552c76df1b5fabe') in 0.011930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.108998 seconds.
+  path: Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/InputField_icon_error.png
+  artifactKey: Guid(8ddb9369782c54cdc814044ad3dddcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GitIgnore/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/UI_Etc/InputField_icon_error.png using Guid(8ddb9369782c54cdc814044ad3dddcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8c64649c10592b245e3f7352b0989c') in 0.021361 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
